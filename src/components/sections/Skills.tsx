@@ -35,12 +35,12 @@ const skillCategories = [
     ],
   },
   {
-    title: "4. Tools & Platforms",
+    title: "4. Soft Skills",
     color: "white",
     skills: [
-      { name: "Git / GitHub", level: 90 },
-      { name: "Linux", level: 85 },
-      { name: "Postman", level: 80 },
+      { name: "Leadership", level: 85 },
+      { name: "Adaptability", level: 90 },
+      { name: "Teamwork", level: 85 },
     ],
   },
 ];

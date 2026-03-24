@@ -64,18 +64,18 @@ export function About() {
 
             {/* Stats Card (Spans 1 column) */}
             <motion.div variants={itemVariants} className="md:col-span-1 md:row-span-2 flex flex-col gap-6">
-              <div className="h-1/2 bg-gradient-to-br from-gray-900/80 to-black backdrop-blur-xl border border-gray-800 rounded-3xl p-8 flex flex-col justify-center relative overflow-hidden group hover:border-neon-purple/50 transition-colors">
-                <div className="absolute -right-4 -bottom-4 w-32 h-32 bg-neon-purple/20 rounded-full blur-3xl group-hover:bg-neon-purple/30 transition-colors"></div>
-                <Code2 className="text-neon-purple mb-4 w-8 h-8" />
-                <div className="text-3xl md:text-3xl font-bold text-white mb-2 tracking-tight">5-Star Coder</div>
-                <div className="text-xs font-mono text-gray-400">Strong problem-solving skills through consistent practice in Data Structures & Algorithms.</div>
+              <div className="h-1/2 bg-gradient-to-br from-gray-900/80 to-black backdrop-blur-xl border border-gray-800 rounded-3xl p-8 flex flex-col justify-center relative overflow-hidden group hover:border-neon-blue/50 transition-colors">
+                <div className="absolute -right-4 -bottom-4 w-32 h-32 bg-neon-blue/20 rounded-full blur-3xl group-hover:bg-neon-blue/30 transition-colors"></div>
+                <Code2 className="text-neon-blue mb-4 w-8 h-8" />
+                <div className="text-3xl md:text-3xl font-bold text-white mb-2 tracking-tight">Full Stack Developer</div>
+                <div className="text-xs font-mono text-gray-400">Building complete web applications using React, Node.js, and modern technologies.</div>
               </div>
 
-              <div className="h-1/2 bg-gradient-to-br from-gray-900/80 to-black backdrop-blur-xl border border-gray-800 rounded-3xl p-8 flex flex-col justify-center relative overflow-hidden group hover:border-neon-teal/50 transition-colors">
-                <div className="absolute -right-4 -bottom-4 w-32 h-32 bg-neon-teal/20 rounded-full blur-3xl group-hover:bg-neon-teal/30 transition-colors"></div>
-                <Activity className="text-neon-teal mb-4 w-8 h-8" />
-                <div className="text-3xl md:text-3xl font-bold text-white mb-2 tracking-tight">Top 10 Finalist</div>
-                <div className="text-xs font-mono text-gray-400">Ranked among top performers by building real-world solutions under pressure.</div>
+              <div className="h-1/2 bg-gradient-to-br from-gray-900/80 to-black backdrop-blur-xl border border-gray-800 rounded-3xl p-8 flex flex-col justify-center relative overflow-hidden group hover:border-emerald-400/50 transition-colors">
+                <div className="absolute -right-4 -bottom-4 w-32 h-32 bg-emerald-400/20 rounded-full blur-3xl group-hover:bg-emerald-400/30 transition-colors"></div>
+                <Layers className="text-emerald-400 mb-4 w-8 h-8" />
+                <div className="text-3xl md:text-3xl font-bold text-white mb-2 tracking-tight">System Integration</div>
+                <div className="text-xs font-mono text-gray-400">Connecting frontend and backend seamlessly using APIs and handling real-world data.</div>
               </div>
             </motion.div>
 
@@ -83,9 +83,9 @@ export function About() {
             <motion.div variants={itemVariants} className="md:col-span-1">
               <div className="h-full bg-white/5 backdrop-blur-2xl border border-white/10 rounded-3xl p-8 flex flex-col justify-center group hover:bg-white/[0.08] transition-colors relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent -translate-x-full group-hover:animate-[shimmer_2s_infinite]"></div>
-                <Code2 className="text-neon-blue mb-4 w-8 h-8 group-hover:scale-110 transition-transform" />
-                <H3 className="text-xl text-white mb-2">Full Stack Development</H3>
-                <p className="text-sm text-gray-400 font-sans">Building complete web applications using React, Node.js, and modern technologies.</p>
+                <Code2 className="text-neon-purple mb-4 w-8 h-8 group-hover:scale-110 transition-transform" />
+                <H3 className="text-xl text-white mb-2">5-Star Coder</H3>
+                <p className="text-sm text-gray-400 font-sans">Strong problem-solving skills through consistent practice in Data Structures & Algorithms.</p>
               </div>
             </motion.div>
 
@@ -101,9 +101,9 @@ export function About() {
             {/* Integration Card */}
             <motion.div variants={itemVariants} className="md:col-span-1">
               <div className="h-full bg-white/5 backdrop-blur-2xl border border-white/10 rounded-3xl p-8 flex flex-col justify-center group hover:bg-white/[0.08] transition-colors overflow-hidden relative">
-                <Layers className="text-emerald-400 mb-4 w-8 h-8 z-10 relative" />
-                <H3 className="text-xl text-white mb-2 z-10 relative">Frontend + Backend Integration</H3>
-                <p className="text-sm text-gray-400 font-sans z-10 relative">Connecting frontend and backend seamlessly using APIs and handling real-world data.</p>
+                <Activity className="text-neon-teal mb-4 w-8 h-8 z-10 relative" />
+                <H3 className="text-xl text-white mb-2 z-10 relative">Top 10 Finalist</H3>
+                <p className="text-sm text-gray-400 font-sans z-10 relative">Ranked among top performers by building real-world solutions under pressure.</p>
               </div>
             </motion.div>
 

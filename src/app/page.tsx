@@ -7,6 +7,7 @@ import { Skills } from "@/components/sections/Skills";
 import { Projects } from "@/components/sections/Projects";
 import { Achievements } from "@/components/sections/Achievements";
 import { Exploring } from "@/components/sections/Exploring";
+import { Education } from "@/components/sections/Education";
 import { Contact } from "@/components/sections/Contact";
 import { Preloader } from "@/components/layout/Preloader";
 import { InteractiveRibbon } from "@/components/effects/InteractiveRibbon";
@@ -26,6 +27,7 @@ export default function Home() {
         <Projects />
         <Achievements />
         <Exploring />
+        <Education />
         <InteractiveRibbon />
         <Contact />
       </main>
